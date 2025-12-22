@@ -5,42 +5,48 @@
 **A Survey on Financial Foundation Models**  
 
 <div align="center">
-  <img src="fig/model.jpg" alt="FinLLM Framework" width="600px">
+  <img src="fig/model.png" alt="FinLLM Framework" width="600px">
 </div>
 
 </div>
+
+## 📝 Introduction
+This repository is the official companion to the survey paper **《Advancing Financial Engineering with Foundation Models: Progress, Applications, and Challenges》** published in the journal Engineering. The paper systematically reviews the progress, applications, and challenges of Financial Foundation Models (FFMs), covering key categories such as Financial Language Foundation Models (FinLFMs), Financial Time-Series Foundation Models (FinTSFMs), and Financial Visual-Language Foundation Models. It also collates a comprehensive collection of relevant datasets and real-world financial applications enabled by FFMs.
+
+This repo serves as a centralized resource for researchers and practitioners in the field of financial artificial intelligence, providing curated references to seminal papers, open-source code, and benchmark datasets related to financial foundation models.
 
 ## 📖 Table of contents
 - [Awesome Papers](#awesome-papers)
   - [Financial Foundation Models](#Financial-Foundation-Models)
-    - [ Financial Language Foundation Models](#Financial-Language-Foundation-Models)
-      - [ Bert-style FinLFMs](#Bert-style-FinLFMs)
+    - [ Financial language foundation models](#Financial-Language-Foundation-Models)
+      - [ BERT-style FinLFMs](#Bert-style-FinLFMs)
       - [ GPT-style FinLFMs](#GPT-style-FinLFMs)
       - [Reasoning-enhanced FinLFMs](#Reasoning-enhanced-FinLFMs)
-    - [ Financial Time-Series Foundation Models](#Financial-Time-Series-Foundation-Models)
-      - [Naive FinTSFMs Trained from Scratch](#Naive-FinTSFMs-Trained-from-Scratch)
-      - [FinTSFMs Adapted from Language Models](#FinTSFMs-Adapted-from-Language-Models)
-    - [Financial Visual-Language Foundation Models](#Financial-Visual-Language-Foundation-Models)
+    - [ Financial time-series foundation models](#Financial-Time-Series-Foundation-Models)
+      - [Naive FinTSFMs trained from scratch](#Naive-FinTSFMs-Trained-from-Scratch)
+      - [FinTSFMs adapted from language models](#FinTSFMs-Adapted-from-Language-Models)
+    - [Financial visual-language foundation models](#Financial-Visual-Language-Foundation-Models)
   - [Financial Data](#Financial-Data)
-    - [Financial text-based Datasets](#Financial-text-based-Datasets)
-      - [Task-specific and English-centric Datasets](#Task-specific-and-English-centric)
-      - [Multi-task Integration and Language Expansion Datasets](#Multi-task-Integration-and-Language-Expansion)
-      - [Cross-lingual and Real-world Benchmarks](#Cross-lingual-and-Real-world-Benchmarks)
-    - [Financial time-series-related Datasets](#Financial-time-series-related-Datasets)
-    - [Financial Visual-Language-related Datasets](#Financial-Visual-Language-related-Datasets)
-  - [ FFM-based Financial Applications](#FFM-based-Financial-Applications)
-    - [Financial Data Structuring](#Financial-Data-Structuring)
-    - [Market Prediction](#Market-Prediction)
-    - [Trading and Financial Decision](#Trading-and-Financial-Decision)
-    - [Multi-Agent Systems](#Multi-Agent-Systems)
-
+    - [Financial text-based datasets](#Financial-text-based-Datasets)
+      - [Task-specific and English-centric datasets](#Task-specific-and-English-centric)
+      - [Multi-task integration and language expansion datasets](#Multi-task-Integration-and-Language-Expansion)
+      - [Cross-lingual and real-world benchmarks](#Cross-lingual-and-Real-world-Benchmarks)
+    - [Financial time-series-related datasets](#Financial-time-series-related-Datasets)
+    - [Financial visual-language-related datasets](#Financial-Visual-Language-related-Datasets)
+  - [ FFM-based financial applications](#FFM-based-Financial-Applications)
+    - [Financial knowledge extraction](#Financial-Data-Structuring)
+    - [Market prediction](#Market-Prediction)
+    - [Trading and financial decision-making](#Trading-and-Financial-Decision)
+    - [Agent-based financial simulation](#Multi-Agent-Systems)
+- [Citation](#citiation)
+- [Contribution](#contribution)
 
 
 
 # Awesome Papers
 ## Financial Foundation Models
-### Financial Language Foundation Models
-#### Bert-style FinLFMs
+### Financial language foundation models
+#### BERT-style FinLFMs
 [1] [FinBERT: Financial Sentiment Analysis with Pretrained Language Models](https://arxiv.org/pdf/1908.10063) 
 
 [2] [Finbert: A pretrained language model for financial communications.](https://arxiv.org/pdf/2006.08097) 
@@ -89,8 +95,8 @@
 [2] [Fino1: On the Transferability of Reasoning Enhanced LLMs to Finance](https://arxiv.org/pdf/2502.08127) [code](https://github.com/The-FinAI/Fino1)
 
 
-### Financial Time-Series Foundation Models
-#### Naive FinTSFMs Trained from Scratch
+### Financial time-series foundation models
+#### Naive FinTSFMs trained from scratch
 [1] [Marketgpt: Developing a pretrained transformer (gpt) for modeling financial time series](https://arxiv.org/pdf/2411.16585) [code](https://github.com/aaron-wheeler/MarketGPT)
 
 [2] [A decoder-only foundation model for time-series forecasting](https://arxiv.org/abs/2310.10688) [code](https://huggingface.co/google/timesfm-1.0-200m)
@@ -99,7 +105,7 @@
 
 [4] [Dual adaptation of time-series foundation models for financial forecasting](https://openreview.net/attachment?id=SSdBpVNYxd&name=pdf) 
 
-#### FinTSFMs Adapted from Language Models
+#### FinTSFMs adapted from language models
 [1] [Time-llm: Time series forecasting by reprogramming large language models](https://arxiv.org/pdf/2310.01728) [code](https://github.com/KimMeen/Time-LLM)
 
 [2] [Unitime: A language-empowered unified model for crossdomain time series forecasting](https://dl.acm.org/doi/pdf/10.1145/3589334.3645434) [code](https://github.com/liuxu77/UniTime)
@@ -107,7 +113,7 @@
 [3] [Sociodojo: Building lifelong analytical agents with real-world text and time series](https://openreview.net/pdf?id=xuY33XhEGR) [code](https://github.com/chengjunyan1/SocioDojo)
 
 
-### Financial Visual-Language Foundation Models
+### Financial visual-language foundation models
 [1] [Finvis-gpt: A multimodal large language model for financial chart analysis](https://arxiv.org/pdf/2308.01430) [code](https://github.com/wwwadx/FinVis-GPT)
 
 [2] [Fintral: A family of gpt-4 level multimodal financial large language models](https://arxiv.org/pdf/2402.10986) [code](https://github.com/UBC-NLP/fintral)
@@ -116,8 +122,8 @@
 
 
 ## Financial Data
-### Financial text-based Datasets
-#### Task-specific and English-centric Datasets
+### Financial text-based datasets
+#### Task-specific and English-centric datasets
 
 [1] [Good debt or bad debt: Detecting semantic orientations in economic texts](https://www.semanticscholar.org/paper/Good-debt-or-bad-debt%3A-Detecting-semantic-in-texts-Malo-Sinha/4211bff1388da30a3b7dfd35d6aef2032900ca5c?p2df) [data](https://huggingface.co/datasets/takala/financial_phrasebank)
 
@@ -133,7 +139,7 @@
 
 [7] [Fintral: A family of gpt-4 level multimodal financial large language model](https://arxiv.org/pdf/2402.10986) [data](https://github.com/czyssrs/ConvFinQA)
 
-#### Multi-task Integration and Language Expansion Datasets
+#### Multi-task integration and language expansion datasets
 
 [1] [WHEN FLUE MEETS FLANG: Benchmarks and Large Pre-trained Language Model for Financial Domain](https://arxiv.org/pdf/2211.00083) [data](https://github.com/SALT-NLP/FLANG)
 
@@ -145,15 +151,11 @@
 
 [5] [Financeiq: Chinese financial domain knowledge assessment dataset](https://github.com/Duxiaoman-DI/XuanYuan/tree/main/FinanceIQ)[data](https://github.com/Duxiaoman-DI/XuanYuan)
 
-[6] [FinBen: A Holistic Financial Benchmark for Large Language Models](https://arxiv.org/pdf/2402.12659) [data](https://github.com/The-FinAI/PIXIU)
+[6] [CFinBench: A Comprehensive Chinese Financial Benchmark for Large Language Models](https://arxiv.org/pdf/2407.02301) [data](https://cfinbench.github.io/)
 
-[7] [AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework](https://arxiv.org/pdf/2403.12582) [data](https://github.com/AlphaFin-proj/AlphaFin)
+[7] [FLAME: Financial Large-Language Model Assessment and Metrics Evaluation](https://arxiv.org/pdf/2501.06211) [data](https://github.com/FLAME-ruc/FLAME)
 
-[8] [CFinBench: A Comprehensive Chinese Financial Benchmark for Large Language Models](https://arxiv.org/pdf/2407.02301) [data](https://cfinbench.github.io/)
-
-[9] [FLAME: Financial Large-Language Model Assessment and Metrics Evaluation](https://arxiv.org/pdf/2501.06211) [data](https://github.com/FLAME-ruc/FLAME)
-
-#### Cross-lingual and Real-world Benchmarks
+#### Cross-lingual and real-world benchmarks
 
 [1] [No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks](https://arxiv.org/pdf/2403.06249) [data](https://github.com/YY0649/ICE-PIXIU)
 
@@ -163,7 +165,11 @@
 
 [4] [M³finmeeting: Multi-lingual multimodal benchmark for financial meeting understanding](https://arxiv.org/pdf/2406.07890) [data](https://github.com/aliyun/qwen-dianjin)
 
-### Financial time-series-related Datasets
+[5] [FinBen: a holistic financial benchmark for large language models](https://arxiv.org/pdf/2402.12659) [data](https://github.com/The-FinAI/PIXIU)
+
+[6] [AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework](https://arxiv.org/pdf/2403.12582) [data](https://github.com/AlphaFin-proj/AlphaFin)
+
+### Financial time-series-related datasets
 
 [1] [Google stock prices – training and test data(2012–2017)](https://www.kaggle.com/datasets/vaibhavsxn/google-stock-prices-training-and-test-data)
 
@@ -177,7 +183,7 @@
 
 [6] [Fintsb: A comprehensive and practical benchmark for financial time series forecasting](https://arxiv.org/pdf/2502.18834) [data](https://github.com/TongjiFinLab/FinTSBenchmark)
 
-### Financial Visual-Language-related Datasets
+### Financial visual-language-related datasets
 
 [1] [Statlog (australian credit approval)]( https://doi.org/10.24432/C59012)[data](https://archive.ics.uci.edu/dataset/143/statlog+australian+credit+approval)
 
@@ -197,18 +203,16 @@
 
 [9] [Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications](https://arxiv.org/pdf/2408.11878) [data](https://chartbench.github.io/)
 
-[10] [Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications](https://arxiv.org/pdf/2408.11878) [data](https://tablebench.github.io/)
+[10] [Mme-finance: A multimodal finance benchmark for expert-level understanding and reasoning](https://arxiv.org/pdf/2411.03314) [data](https://hithink-research.github.io/MME-Finance/)
 
-[11] [Mme-finance: A multimodal finance benchmark for expert-level understanding and reasoning](https://arxiv.org/pdf/2411.03314) [data](https://hithink-research.github.io/MME-Finance/)
+[11] [Fcmr: Robust evaluation of financial cross-modal multi-hop reasoning](https://arxiv.org/pdf/2412.12567v4)
 
-[12] [Fcmr: Robust evaluation of financial cross-modal multi-hop reasoning](https://arxiv.org/pdf/2412.12567v4)
+[12] [Famma: A benchmark for financial domain multilingual multimodal question answering](https://arxiv.org/pdf/2410.04526) [data](https://famma-bench.github.io/famma/)
 
-[13] [Famma: A benchmark for financial domain multilingual multimodal question answering](https://arxiv.org/pdf/2410.04526) [data](https://famma-bench.github.io/famma/)
+[13] [Finmme: Benchmark dataset for financial multi-modal reasoning evaluation](https://arxiv.org/pdf/2505.24714) [data](https://huggingface.co/datasets/luojunyu/FinMME)
 
-[14] [Finmme: Benchmark dataset for financial multi-modal reasoning evaluation](https://arxiv.org/pdf/2505.24714) [data](https://huggingface.co/datasets/luojunyu/FinMME)
-
-## FFM-based Financial Applications
-### Financial Data Structuring
+## FFM-based financial applications
+### Financial knowledge extraction
 
 [1] [No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks](https://arxiv.org/pdf/2403.06249)
 
@@ -216,7 +220,7 @@
 
 [3] [Assessing large language models used for extracting table information from annual financial reports](https://www.mdpi.com/2073-431X/13/10/257)
 
-### Market Prediction
+### Market prediction
 
 [1] [Time-series foundation model for value-at-risk](https://arxiv.org/pdf/2410.11773)
 
@@ -226,7 +230,7 @@
 
 [4] [Can chatgpt improve investment decisions? from a portfolio management perspective](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4390529)
 
-### Trading and Financial Decision
+### Trading and financial decision-making
 
 [1] [Ra-cfgpt: Chinese financial assistant with retrieval-augmented large language model](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-31018-5) 
 
@@ -236,10 +240,34 @@
 
 [4] [Can chatgpt improve investment decisions? from a portfolio management perspective](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4390529)
 
-### Multi-Agent Systems
+### Agent-based financial simulation
 
 [1] [Tradingagents: Multi-agents llm financial trading framework](https://arxiv.org/pdf/2412.20138)
 
 [2] [Can large language models trade? testing financial theories with llm agents in market simulations](https://arxiv.org/pdf/2504.10789)
 
 [3] [When ai meets finance (stockagent): Large language model-based stock trading in simulated real-world environments](https://arxiv.org/pdf/2407.18957)
+
+
+# Citiation
+If you find this survey or the curated resources helpful for your research, please cite the paper as follows:
+
+```
+@article{chen2025advancing,
+    title = {Advancing Financial Engineering with Foundation Models: Progress, Applications, and Challenges},
+    author = {Chen, Liyuan and Liu, Shuoling and Yan, Jiangpeng and Wang, Xiaoyu and Liu, Henglin and Li, Chuang and Jiao, Kecheng and Ying, Jixuan and Liu, Yang Veronica and Yang, Qiang and Li, Xiu},
+    journal = {Engineering},
+    year = {2025},
+    doi = {10.1016/j.eng.2025.11.029},
+    url = {https://doi.org/10.1016/j.eng.2025.11.029}
+}
+```
+
+# Contribution
+We welcome the community to contribute to this repository! If you would like to recommend new papers (including your own work) to be added to the list, please **submit an issue** in this repository with the following information:
+
+- Paper title and arXiv/DOI URL
+- Code repository link (if available)
+- Brief classification (e.g., GPT-style FinLFM, Financial time-series dataset, Market Prediction application)
+
+We will review and update the list regularly to keep it comprehensive and up-to-date.
